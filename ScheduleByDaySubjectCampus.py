@@ -95,7 +95,7 @@ final_df = subject_filtered_df[subject_filtered_df['CampusPrediction'] == select
 # Sort the final_df by BldgPrediction
 final_df = final_df.sort_values(by='BldgPrediction')
 
-final_df = final_df.drop(columns=['Term', 'Term Descr Short', 'Class Nbr', 'Class Instr ID'])
+final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
 
 
 
