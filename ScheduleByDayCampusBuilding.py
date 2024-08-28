@@ -27,7 +27,7 @@ selDay = DaysOfWeek[selected_day]
 
 # Filter the DataFrame based on the selected day
 # Assuming you have a 'Day' column in your DataFrame
-filtered_df = sched[sched['selDay'] == 'Y']
+filtered_df = sched[sched[selDay] == 'Y']
 
 # Create a dropdown for campuses
 campus_counts = filtered_df['CampusPrediction'].value_counts().to_dict()
