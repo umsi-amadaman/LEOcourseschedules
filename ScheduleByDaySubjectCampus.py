@@ -95,6 +95,10 @@ final_df = subject_filtered_df[subject_filtered_df['CampusPrediction'] == select
 # Sort the final_df by BldgPrediction
 final_df = final_df.sort_values(by='BldgPrediction')
 
+final_df.drop(columns=['Term', 'Term Descr Short', 'Class Nbr', 'Class Instr ID'])
+
+
+
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_subject} on {selected_campus} campus for {selected_day}:")
 st.dataframe(final_df)
