@@ -6,7 +6,7 @@ import pandas as pd
 
 url = "https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/main/UMICHbuildings_dict.json"
 response = requests.get(url)
-my_dict = json.loads(response.text)
+new_Bldgs = json.loads(response.text)
 
 
 
