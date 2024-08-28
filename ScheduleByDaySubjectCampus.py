@@ -97,7 +97,12 @@ final_df = final_df.sort_values(by='BldgPrediction')
 
 final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
 
-
+final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 'BldgPrediction', 'Crse Descr', 'Subject',
+       'Catalog Nbr', 'Class Section', 'Class Instr Name',
+       'Class Mtg Nbr', 'Facility ID', 'Facility Descr',
+       'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
+       , 'Mon', 'Tues', 'Wed', 'Thurs',
+       'Fri', 'Sat', 'Sun', 'CampusPrediciton']]
 
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_subject} on {selected_campus} campus for {selected_day}:")
