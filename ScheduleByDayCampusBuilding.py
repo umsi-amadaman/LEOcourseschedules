@@ -85,6 +85,15 @@ selected_building = selected_building_option.split(' (')[0]
 # Filter the DataFrame based on the selected building
 final_df = campus_filtered_df[campus_filtered_df['BldgPrediction'] == selected_building]
 
+final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
+
+final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 'BldgPrediction', 'Crse Descr', 'Subject',
+       'Catalog Nbr', 'Class Section', 'Class Instr Name',
+       'Class Mtg Nbr', 'Facility ID', 'Facility Descr',
+       'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
+       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediction']]
+
+
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_building} on {selected_campus} campus for {selected_day}:")
 st.dataframe(final_df)
