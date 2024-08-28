@@ -101,7 +101,7 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 
        'Catalog Nbr', 'Class Section', 'Class Instr Name',
        'Class Mtg Nbr', 'Facility ID', 'Facility Descr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
-       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediciton']]
+       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediction']]
 
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_subject} on {selected_campus} campus for {selected_day}:")
