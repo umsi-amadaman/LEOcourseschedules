@@ -6,13 +6,45 @@ import pandas as pd
 
 url = "https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/main/UMICHbuildings_dict.json"
 response = requests.get(url)
-my_dict = json.loads(response.text)
+new_Bldgs = json.loads(response.text)
 
 
 
 DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/LEOAug24Schedule.csv'
 
 sched = pd.read_csv(DATA)
+
+def find_longest_match(string, key_list):
+    matches = [key for key in key_list if string in key or key in string]
+    return max(matches, key=len, default=None)
+
+# Create new columns with default values
+sched['RoomPrediction'] = ''
+sched['BldgPrediction'] = ''
+sched['CampusPrediction'] = ''
+
+# Iterate through unique Facility IDs
+for x in sched['Facility ID'].unique():
+    if isinstance(x, str):
+        match = find_longest_match(x, new_Bldgs.keys())
+        if match:
+            # Remove the matched part from the original string
+            remaining = x.replace(match, '').strip()
+            
+            # Update the DataFrame for all rows with this Facility ID
+            mask = sched['Facility ID'] == x
+            sched.loc[mask, 'RoomPrediction'] = remaining
+            sched.loc[mask, 'BldgPrediction'] = match
+            sched.loc[mask, 'CampusPrediction'] = new_Bldgs[match][-1]
+        else:
+            # If no match, set only RoomPrediction to the original string
+            mask = sched['Facility ID'] == x
+            sched.loc[mask, 'BldgPrediction'] = x
+
+# After the loop, fill NaN values if any
+sched['RoomPrediction'] = sched['RoomPrediction'].fillna('')
+sched['BldgPrediction'] = sched['BldgPrediction'].fillna('')
+sched['CampusPrediction'] = sched['CampusPrediction'].fillna('')
 
 # Title of the app
 st.title('Schedule Viewer by Day - Campus - Building')
