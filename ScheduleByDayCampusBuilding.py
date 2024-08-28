@@ -72,9 +72,18 @@ selected_campus = selected_campus_option.split(' (')[0]
 # Filter the DataFrame based on the selected campus
 campus_filtered_df = filtered_df[filtered_df['CampusPrediction'] == selected_campus]
 
+
+
+
+
+
 # Create a dictionary of buildings and their counts for the selected campus
 building_counts = campus_filtered_df['BldgPrediction'].value_counts().to_dict()
 building_options = [f"{building} ({count})" for building, count in building_counts.items()]
+
+# Add "ALL" option at the beginning of the list
+all_count = campus_filtered_df['BldgPrediction'].count()
+building_options.insert(0, f"ALL ({all_count})")
 
 # Create a dropdown for buildings
 selected_building_option = st.selectbox('Select a building:', building_options)
@@ -83,7 +92,16 @@ selected_building_option = st.selectbox('Select a building:', building_options)
 selected_building = selected_building_option.split(' (')[0]
 
 # Filter the DataFrame based on the selected building
-final_df = campus_filtered_df[campus_filtered_df['BldgPrediction'] == selected_building]
+if selected_building == "ALL":
+    final_df = campus_filtered_df
+else:
+    final_df = campus_filtered_df[campus_filtered_df['BldgPrediction'] == selected_building]
+
+# Display the final filtered DataFrame
+if selected_building == "ALL":
+    st.write(f"Showing schedule for ALL buildings on {selected_campus} campus for {selected_day}:")
+else:
+    st.write(f"Showing schedule for {selected_building} on {selected_campus} campus for {selected_day}:")
 
 final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
 
@@ -93,7 +111,10 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
        'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediction']]
 
-
-# Display the final filtered DataFrame
-st.write(f"Showing schedule for {selected_building} on {selected_campus} campus for {selected_day}:")
 st.dataframe(final_df)
+
+# Optional: Display some statistics
+if selected_building == "ALL":
+    st.write(f"Total classes on {selected_campus} campus for {selected_day}: {len(final_df)}")
+else:
+    st.write(f"Total classes in {selected_building} on {selected_campus} campus for {selected_day}: {len(final_df)}")
