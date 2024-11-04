@@ -124,7 +124,8 @@ final_df = final_df.sort_values(by='BldgPrediction')
 final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 'BldgPrediction', 'Crse Descr', 'Subject',
-       'Catalog Nbr', 'Class Section', 'Class Instr Name',
+       'Catalog Nbr', 'Class Section', 'Class Instr Name', 'Job Title', 
+       'Appointment Start Date', 'FTE', 'Department Name' 'Deduction' ,
        'Class Mtg Nbr', 'Facility ID', 'Facility Descr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
        'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediction']]
