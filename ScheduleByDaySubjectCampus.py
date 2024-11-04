@@ -15,6 +15,23 @@ DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/LEOAug24Sch
 sched = pd.read_csv(DATA)
 
 
+montlydata = 'https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/refs/heads/main/LEO_Oct24Monthly.csv'
+monthly = pd.read_csv(montlydata)
+
+# Ensure 'Class Instr ID' is float in both DataFrames for merging
+sched['Class Instr ID'] = sched['Class Instr ID'].astype(float)
+monthly['Class Instr ID'] = monthly['Class Instr ID'].astype(float)
+
+# Perform a left join to keep only matching rows
+merged_df = sched.merge(
+    monthly[['Class Instr ID', 'Job Title', 'Appointment Start Date', 'FTE', 'Department Name', 'Deduction']],
+    on='Class Instr ID',
+    how='inner'  # 'inner' join drops rows with no match in monthly
+)
+
+# Resulting DataFrame `merged_df` has only matched rows and the specified columns from `monthly`
+sched = merged_df
+
 
 def find_longest_match(string, key_list):
     matches = [key for key in key_list if string in key or key in string]
