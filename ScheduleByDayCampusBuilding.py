@@ -14,22 +14,32 @@ DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/LEOAug24Sch
 
 sched = pd.read_csv(DATA)
 
-montlydata = 'https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/refs/heads/main/LEO_Oct24Monthly.csv'
-monthly = pd.read_csv(montlydata)
+monthlydata = 'https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/refs/heads/main/LEO_Oct24Monthly.csv'
+monthly = pd.read_csv(monthlydata)
 
-# Ensure 'Class Instr ID' is float in both DataFrames for merging
-sched['Class Instr ID'] = sched['Class Instr ID'].astype(float)
-monthly['Class Instr ID'] = monthly['Class Instr ID'].astype(float)
 
-# Perform a left join to keep only matching rows
+# Convert 'Class Instr ID' in sched to numeric, setting errors='coerce' to handle non-numeric values
+sched['Class Instr ID'] = pd.to_numeric(sched['Class Instr ID'], errors='coerce')
+monthly['UM ID'] = pd.to_numeric(monthly['UM ID'], errors='coerce')
+
+# Drop rows with NaN in 'Class Instr ID' or 'UM ID'
+sched = sched.dropna(subset=['Class Instr ID']).copy()
+monthly = monthly.dropna(subset=['UM ID']).copy()
+
+# Convert columns to float explicitly using .loc
+sched.loc[:, 'Class Instr ID'] = sched['Class Instr ID'].astype(float)
+monthly.loc[:, 'UM ID'] = monthly['UM ID'].astype(float)
+
+# Perform an inner join, matching 'Class Instr ID' from sched with 'UM ID' from monthly
 merged_df = sched.merge(
-    monthly[['Class Instr ID', 'Job Title', 'Appointment Start Date', 'FTE', 'Department Name', 'Deduction']],
-    on='Class Instr ID',
-    how='inner'  # 'inner' join drops rows with no match in monthly
+    monthly[['UM ID', 'Job Title', 'Appointment Start Date', 'FTE', 'Department Name', 'Deduction']],
+    left_on='Class Instr ID',
+    right_on='UM ID',
+    how='inner'
 )
 
-# Resulting DataFrame `merged_df` has only matched rows and the specified columns from `monthly`
-sched = merged_df
+# Drop the redundant 'UM ID' column from the result
+sched = merged_df.drop(columns=['UM ID'])
 
 def find_longest_match(string, key_list):
     matches = [key for key in key_list if string in key or key in string]
