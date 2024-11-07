@@ -52,7 +52,8 @@ sched['CampusPrediction'] = ''
 
 # Iterate through unique Facility IDs
 for x in sched['Facility ID'].unique():
-    if isinstance(x, str):
+    # Check if x is a string AND not just whitespace
+    if isinstance(x, str) and x.strip():  # Added .strip() check here
         match = find_longest_match(x, new_Bldgs.keys())
         if match:
             # Remove the matched part from the original string
