@@ -147,3 +147,7 @@ if selected_building == "ALL":
     st.write(f"Total classes on {selected_campus} campus for {selected_day}: {len(final_df)}")
 else:
     st.write(f"Total classes in {selected_building} on {selected_campus} campus for {selected_day}: {len(final_df)}")
+
+
+st.write("Columns right before display:", final_df.columns)
+st.write("Sample of UM ID values:", final_df['UM ID'].head())
