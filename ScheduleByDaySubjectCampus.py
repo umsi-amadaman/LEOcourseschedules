@@ -139,5 +139,5 @@ st.dataframe(final_df)
 unique_buildings = final_df['BldgPrediction'].unique()
 st.write(f"Buildings used: {', '.join(unique_buildings)}")
 
-st.write("Columns right before display:", final_df.columns)
-st.write("Sample of UM ID values:", final_df['UM ID'].head())
+#st.write("Columns right before display:", final_df.columns)
+#st.write("Sample of UM ID values:", final_df['UM ID'].head())
