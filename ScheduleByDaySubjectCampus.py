@@ -40,8 +40,7 @@ merged_df = sched.merge(
 
 # Drop the redundant 'UM ID' column from the result
 sched = merged_df.drop(columns=['Class Instr ID'])
-sched['UM ID'] = sched['UM ID'].astype(str).str.rstrip('.0')
-
+sched['UM ID'] = sched['UM ID'].apply(lambda x: f"{x:.0f}")
 
 
 def find_longest_match(string, key_list):
