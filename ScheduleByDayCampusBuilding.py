@@ -39,7 +39,7 @@ merged_df = sched.merge(
 )
 
 # Drop the redundant 'UM ID' column from the result
-sched = merged_df.drop(columns=['UM ID'])
+sched = merged_df.drop(columns=['Class Instr ID'])
 
 def find_longest_match(string, key_list):
     matches = [key for key in key_list if string in key or key in string]
@@ -130,10 +130,10 @@ if selected_building == "ALL":
 else:
     st.write(f"Showing schedule for {selected_building} on {selected_campus} campus for {selected_day}:")
 
-final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr', 'Class Instr ID'])
+final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr'])
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 'BldgPrediction', 'Crse Descr', 'Subject',
-       'Catalog Nbr', 'Class Section', 'Class Instr Name', 'Job Title', 
+       'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction',
        'Class Mtg Nbr', 'Facility ID', 'Facility Descr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
