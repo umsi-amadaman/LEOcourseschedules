@@ -138,3 +138,6 @@ st.dataframe(final_df)
 # Optional: Display unique buildings for this selection
 unique_buildings = final_df['BldgPrediction'].unique()
 st.write(f"Buildings used: {', '.join(unique_buildings)}")
+
+print("Columns right before display:", final_df.columns)
+print("Sample of UM ID values:", final_df['UM ID'].head())
