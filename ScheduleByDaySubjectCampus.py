@@ -132,6 +132,10 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
        'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun', 'CampusPrediction']]
 
+final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
+final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
+
+
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_subject} on {selected_campus} campus for {selected_day}:")
 st.dataframe(final_df)
