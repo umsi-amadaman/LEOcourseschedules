@@ -15,7 +15,7 @@ DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/A2Sched
 
 sched = pd.read_csv(DATA)
 
-monthlydata = 'https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/LEOmonthly_Jan25.csv'
+monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/LEOmonthly_Jan25.csv'
 
 
 monthly = pd.read_csv(monthlydata)
