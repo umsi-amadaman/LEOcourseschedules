@@ -24,7 +24,7 @@ monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/
 
 monthly = pd.read_csv(monthlydata)
 
-'''
+IGNORED = '''
 # Convert 'Class Instr ID' in sched to numeric, setting errors='coerce' to handle non-numeric values
 sched['Class Instr ID'] = pd.to_numeric(sched['Class Instr ID'], errors='coerce')
 monthly['UM ID'] = pd.to_numeric(monthly['UM ID'], errors='coerce')
