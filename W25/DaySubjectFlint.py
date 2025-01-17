@@ -70,6 +70,7 @@ day_filtered_df = sched[sched[selDay] == 'X']
 
 
 
+st.write("Available columns:", list(day_filtered_df.columns))
 
 # Create a dropdown for subjects
 subject_counts = day_filtered_df['Subject'].value_counts().to_dict()
