@@ -80,7 +80,7 @@ selected_subject_option = st.selectbox('Select a subject:', subject_options)
 selected_subject = selected_subject_option.split(' (')[0]
 
 # Filter the DataFrame based on the selected subject
-subject_filtered_df = day_filtered_df[day_filtered_df['SUBJECT'] == selected_subject]
+subject_filtered_df = day_filtered_df[day_filtered_df['Subject'] == selected_subject]
 
 final_df = subject_filtered_df
 
