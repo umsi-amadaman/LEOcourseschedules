@@ -70,9 +70,9 @@ day_filtered_df = sched[sched[selDay] == 'X']
 
 
 
-st.write("Available columns:", list(day_filtered_df.columns))
-st.write("Number of rows:", len(day_filtered_df))
-st.write("First few rows:", day_filtered_df.head())
+#st.write("Available columns:", list(day_filtered_df.columns))
+#st.write("Number of rows:", len(day_filtered_df))
+#st.write("First few rows:", day_filtered_df.head())
 
 # Create a dropdown for subjects
 subject_counts = day_filtered_df['Subject'].value_counts().to_dict()
@@ -91,18 +91,23 @@ final_df = subject_filtered_df
 final_df = final_df
 
 final_df = final_df.drop(columns=['Class Nbr'])
+final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
+       'Catalog Nbr', 'Class Section', 'Class Instr Name', 
+       'Class Mtg Nbr',
+       'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
+       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun']]
 
+### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
+#st.write("Available columns in final_df:", list(final_df.columns))
 
-st.write("Available columns in final_df:", list(final_df.columns))
-
-
+IGNORE2 = '''
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
        'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
        'Class Mtg Nbr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
        'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun']]
-
+'''
 final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
 final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
 
