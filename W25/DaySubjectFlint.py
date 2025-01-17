@@ -91,14 +91,15 @@ final_df = subject_filtered_df
 final_df = final_df
 
 final_df = final_df.drop(columns=['Class Nbr'])
+st.write("Available columns in final_df:", list(final_df.columns))
+
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
        'Catalog Nbr', 'Class Section', 'Class Instr Name', 
        'Class Mtg Nbr',
-       'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
+       'Meeting Start Dt', 'Meeting End Dt',
        'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun']]
 
 ### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
-#st.write("Available columns in final_df:", list(final_df.columns))
 
 IGNORE2 = '''
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
