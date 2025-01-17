@@ -10,11 +10,14 @@ new_Bldgs = json.loads(response.text)
 
 
 
-DATA = #'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/LEOAug24Schedule.csv'
+DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/A2SchedW25.csv'
+#https://github.com/umsi-amadaman/LEOcourseschedules/blob/main/W25/A2SchedW25.csv
 
 sched = pd.read_csv(DATA)
 
-monthlydata = #'https://raw.githubusercontent.com/umsi-amadaman/LEOcourseschedules/refs/heads/main/LEO_Oct24Monthly.csv'
+monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/LEOmonthly_Jan25.csv'
+
+
 monthly = pd.read_csv(monthlydata)
 
 
