@@ -24,7 +24,7 @@ monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/
 
 monthly = pd.read_csv(monthlydata)
 
-
+'''
 # Convert 'Class Instr ID' in sched to numeric, setting errors='coerce' to handle non-numeric values
 sched['Class Instr ID'] = pd.to_numeric(sched['Class Instr ID'], errors='coerce')
 monthly['UM ID'] = pd.to_numeric(monthly['UM ID'], errors='coerce')
@@ -48,7 +48,7 @@ merged_df = sched.merge(
 # Drop the redundant 'UM ID' column from the result
 sched = merged_df.drop(columns=['Class Instr ID'])
 sched['UM ID'] = sched['UM ID'].apply(lambda x: f"{x:.0f}")
-
+'''
 
 # Title of the app
 st.title('Flint Schedule Viewer by Day - Subject')
