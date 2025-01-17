@@ -92,6 +92,10 @@ final_df = final_df
 
 final_df = final_df.drop(columns=['Class Nbr'])
 
+
+st.write("Available columns in final_df:", list(final_df.columns))
+
+
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
        'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
