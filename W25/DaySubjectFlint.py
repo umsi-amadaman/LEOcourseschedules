@@ -118,8 +118,8 @@ st.write(f"Showing schedule for {selected_subject} for {selected_day}:")
 st.dataframe(final_df)
 
 # Optional: Display unique buildings for this selection
-unique_buildings = final_df['Bldg'].unique()
-st.write(f"Buildings used: {', '.join(Bldg)}")
+#unique_buildings = final_df['Bldg'].unique()
+#st.write(f"Buildings used: {', '.join(Bldg)}")
 
 #st.write("Columns right before display:", final_df.columns)
 #st.write("Sample of UM ID values:", final_df['UM ID'].head())
