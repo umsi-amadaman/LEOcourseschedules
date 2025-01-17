@@ -135,7 +135,7 @@ if selected_building == "ALL":
 else:
     st.write(f"Showing schedule for {selected_building} on {selected_campus} campus for {selected_day}:")
 
-final_df = final_df.drop(columns=['Term', 'Term Descrshort', 'Class Nbr'])
+final_df = final_df.drop(columns=['Class Nbr'])
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','RoomPrediction', 'BldgPrediction', 'Crse Descr', 'Subject',
        'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
