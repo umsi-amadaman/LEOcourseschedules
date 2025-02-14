@@ -97,7 +97,8 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'C
        'Catalog Nbr', 
        'Class Mtg Nbr',
        'Meeting Start Dt', 'Meeting End Dt',
-       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun']]
+        'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 
+                     'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator']]
 
 ### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
 
