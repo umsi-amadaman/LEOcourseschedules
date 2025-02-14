@@ -63,7 +63,7 @@ selDay = DaysOfWeek[selected_day]
 
 # Filter the DataFrame based on the selected day
 # Assuming you have a 'Day' column in your DataFrame
-day_filtered_df = sched[sched[selDay] in ['M', 'T', 'W', 'R', 'F']]
+day_filtered_df = sched[sched[selDay].isin(['M', 'T', 'W', 'R', 'F'])]
 
 
 
