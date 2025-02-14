@@ -93,17 +93,17 @@ final_df = final_df
 final_df = final_df.drop(columns=['Class Nbr'])
 #st.write("Available columns in final_df:", list(final_df.columns))
 
-final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Class Instr Name', 'Crse Descr', 'Subject',
+final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Primary Instructor Last Name','Primary Instructor First Name', 'Crse Descr', 'Subject',
        'Catalog Nbr', 
        'Class Mtg Nbr',
        'Meeting Start Dt', 'Meeting End Dt',
         'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 
-                     'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator']]
+                     'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator', 'Instructional Mode']]
 
 ### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
 
 IGNORE2 = '''
-final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'Crse Descr', 'Subject',
+final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Crse Descr', 'Subject',
        'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
        'Class Mtg Nbr',
