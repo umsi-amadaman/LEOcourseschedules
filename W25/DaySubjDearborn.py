@@ -24,31 +24,7 @@ monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/
 
 monthly = pd.read_csv(monthlydata)
 
-IGNORED = '''
-# Convert 'Class Instr ID' in sched to numeric, setting errors='coerce' to handle non-numeric values
-sched['Class Instr ID'] = pd.to_numeric(sched['Class Instr ID'], errors='coerce')
-monthly['UM ID'] = pd.to_numeric(monthly['UM ID'], errors='coerce')
 
-# Drop rows with NaN in 'Class Instr ID' or 'UM ID'
-sched = sched.dropna(subset=['Class Instr ID']).copy()
-monthly = monthly.dropna(subset=['UM ID']).copy()
-
-# Convert columns to float explicitly using .loc
-sched.loc[:, 'Class Instr ID'] = sched['Class Instr ID'].astype(float)
-monthly.loc[:, 'UM ID'] = monthly['UM ID'].astype(float)
-
-# Perform an inner join, matching 'Class Instr ID' from sched with 'UM ID' from monthly
-merged_df = sched.merge(
-    monthly[['UM ID', 'Job Title', 'Appointment Start Date', 'FTE', 'Department Name', 'Deduction']],
-    left_on='Class Instr ID',
-    right_on='UM ID',
-    how='inner'
-)
-
-# Drop the redundant 'UM ID' column from the result
-sched = merged_df.drop(columns=['Class Instr ID'])
-sched['UM ID'] = sched['UM ID'].apply(lambda x: f"{x:.0f}")
-'''
 
 # Title of the app
 st.title('Dearborn Schedule Viewer by Day - Subject')
@@ -100,14 +76,6 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Buil
                      'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator', 'Instructional Mode']]
 
 ### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
-
-IGNORE2 = '''
-final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Crse Descr', 'Subject',
-       'Class Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
-       'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
-       'Class Mtg Nbr',
-       'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
-       'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator']]
 '''
 final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
 final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
@@ -116,10 +84,20 @@ final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], erro
 # Display the final filtered DataFrame
 st.write(f"Showing schedule for {selected_subject} for {selected_day}:")
 st.dataframe(final_df)
+'''
+# Add a dropdown for instruction mode
+instruction_modes = sorted(final_df['Instructional Mode'].unique().tolist())
+selected_mode = st.selectbox('Filter by Instruction Mode:', ['All'] + instruction_modes)
 
-# Optional: Display unique buildings for this selection
-#unique_buildings = final_df['Bldg'].unique()
-#st.write(f"Buildings used: {', '.join(Bldg)}")
+# Filter by selected instruction mode
+if selected_mode != 'All':
+    final_df = final_df[final_df['Instructional Mode'] == selected_mode]
 
-#st.write("Columns right before display:", final_df.columns)
-#st.write("Sample of UM ID values:", final_df['UM ID'].head())
+# Format times
+final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
+final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
+
+# Display the final filtered DataFrame with mode information
+mode_text = f" ({selected_mode} mode)" if selected_mode != 'All' else " (all modes)"
+st.write(f"Showing schedule for {selected_subject} for {selected_day}{mode_text}:")
+st.dataframe(final_df)
