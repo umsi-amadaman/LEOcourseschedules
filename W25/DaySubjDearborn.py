@@ -16,8 +16,8 @@ DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/Dearbor
 sched = pd.read_csv(DATA)
 
 #Breakout Room and Building
-sched['Room'] = sched['Facility ID'].str.rsplit(' ', n=1).str[0]
-sched['Bldg'] = sched['Facility Descr'].str.rsplit(' ', n=1).str[-1]
+sched['Room'] = sched['Room Code']
+sched['Bldg'] = sched['Building Code']
 
 monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/LEOmonthly_Jan25.csv'
 
