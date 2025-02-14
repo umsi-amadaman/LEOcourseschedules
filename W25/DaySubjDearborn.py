@@ -88,9 +88,9 @@ subject_filtered_df = day_filtered_df[day_filtered_df['Subject'] == selected_sub
 final_df = subject_filtered_df
 
 # Sort the final_df by BldgPrediction
-final_df = final_df
+#final_df = final_df
 
-final_df = final_df.drop(columns=['Class Nbr'])
+#final_df = final_df.drop(columns=['Class Nbr'])
 #st.write("Available columns in final_df:", list(final_df.columns))
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Primary Instructor Last Name',
