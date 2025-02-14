@@ -57,13 +57,13 @@ st.title('Dearborn Schedule Viewer by Day - Subject')
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 selected_day = st.selectbox('Select a day of the week:', days)
 
-DaysOfWeek = {'Monday':'Mon', 'Tuesday':'Tues', 'Wednesday':'Wed', 'Thursday':'Thurs', 'Friday':'Fri', 'Saturday':'Sat', 'Sunday':'Sun'}
+DaysOfWeek = {'Monday':'Monday Indicator', 'Tuesday':'Tuesday Indicator', 'Wednesday':'Wednesday Indicator', 'Thursday':'Thursday Indicator', 'Friday':'Friday Indicator', 'Saturday':'Saturday Indicator', 'Sunday':'Sunday Indicator'}
 
 selDay = DaysOfWeek[selected_day]
 
 # Filter the DataFrame based on the selected day
 # Assuming you have a 'Day' column in your DataFrame
-day_filtered_df = sched[sched[selDay] == 'X']
+day_filtered_df = sched[sched[selDay] in ['M', 'T', 'W', 'R', 'F']
 
 
 
