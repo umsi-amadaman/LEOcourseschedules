@@ -76,7 +76,7 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Buil
                      'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator', 'Instructional Mode']]
 
 ### we're not looking up lecs like we do for A2... so you gotta get their appt info yourself
-'''
+IGNORE ='''
 final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
 final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
 
