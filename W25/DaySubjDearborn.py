@@ -94,8 +94,8 @@ final_df = final_df.drop(columns=['Class Nbr'])
 #st.write("Available columns in final_df:", list(final_df.columns))
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Primary Instructor Last Name','Primary Instructor First Name', 'Crse Descr', 'Subject',
-       'Catalog Nbr', 
-       'Class Mtg Nbr',
+       'Class Nbr', 
+       'Class Section',
        'Meeting Start Dt', 'Meeting End Dt',
         'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 
                      'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator', 'Instructional Mode']]
@@ -104,7 +104,7 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Buil
 
 IGNORE2 = '''
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Crse Descr', 'Subject',
-       'Catalog Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
+       'Class Nbr', 'Class Section', 'Class Instr Name', 'UM ID', 'Job Title', 
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
        'Class Mtg Nbr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
