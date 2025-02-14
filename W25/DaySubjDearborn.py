@@ -107,7 +107,7 @@ final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room', 'Bldg', 'C
        'Appointment Start Date', 'FTE', 'Department Name', 'Deduction' ,
        'Class Mtg Nbr',
        'Instruction Mode Descrshort', 'Meeting Start Dt', 'Meeting End Dt',
-       'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun']]
+       'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator']]
 '''
 final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
 final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
