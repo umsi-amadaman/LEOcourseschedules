@@ -94,8 +94,8 @@ if selected_mode != 'All':
     final_df = final_df[final_df['Instructional Mode'] == selected_mode]
 
 # Format times
-final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
-final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
+#final_df['Meeting Time Start'] = pd.to_datetime(final_df['Meeting Time Start'], errors='coerce').dt.strftime('%H:%M')
+#final_df['Meeting Time End'] = pd.to_datetime(final_df['Meeting Time End'], errors='coerce').dt.strftime('%H:%M')
 
 # Display the final filtered DataFrame with mode information
 mode_text = f" ({selected_mode} mode)" if selected_mode != 'All' else " (all modes)"
