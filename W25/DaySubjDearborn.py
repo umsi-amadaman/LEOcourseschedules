@@ -24,7 +24,14 @@ monthlydata = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/
 
 monthly = pd.read_csv(monthlydata)
 
+# Convert Primary Instructor ID to numeric (int64) to match Monthly's UM ID
+sched['Primary Instructor ID'] = pd.to_numeric(sched['Primary Instructor ID'], errors='coerce')
 
+# Create a filter for rows where Primary Instructor ID exists in Monthly's UM ID
+valid_ids = sched['Primary Instructor ID'].isin(monthly['UM ID'])
+
+# Apply the filter to sched
+sched = sched[valid_ids]
 
 # Title of the app
 st.title('Dearborn Schedule Viewer by Day - Subject')
