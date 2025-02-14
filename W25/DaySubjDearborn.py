@@ -96,7 +96,7 @@ final_df = final_df.drop(columns=['Class Nbr'])
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Primary Instructor Last Name','Primary Instructor First Name', 'Crse Descr', 'Subject',
        'Class Nbr', 
        'Class Section',
-       'Meeting Start Dt', 'Meeting End Dt',
+       'Term Start Date', 'Meeting End Date',
         'Monday Indicator', 'Tuesday Indicator', 'Wednesday Indicator', 
                      'Thursday Indicator', 'Friday Indicator', 'Saturday Indicator', 'Sunday Indicator', 'Instructional Mode']]
 
