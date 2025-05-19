@@ -1,0 +1,263 @@
+Term Code,Term Desc,Subject,Class Nbr,Class Section,Primary Instructor ID,Primary Instructor Last Name,Primary Instructor First Name,Room Code,Building Code,Term Start Date,Term End Date,Begin Time,End Time,Monday Indicator,Tuesday Indicator,Wednesday Indicator,Thursday Indicator,Friday Indicator,Saturday Indicator,Sunday Indicator,Instructional Mode
+202530,Summer 2025,AAAS,300,101,41453124,Harris,Aurora, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ACC,298,101,60986283,Baker,Susan,170,FCS,5/5/2025,6/20/2025,1100,1345, ,T, ,R, , , ,In Person
+202530,Summer 2025,ACC,357,101,40331464,Kent,Richard, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ACC,358,101,79623236,Graybeal,Patricia, ,EXAMS,5/5/2025,6/20/2025,1800,2045,M, , , , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ACC,439,101,32473683,Green,Brian, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ACC,505,101,40331464,Kent,Richard, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ACC,539,101,32473683,Green,Brian, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ANTH,101,101,15506693,Beauchesne,Patrick, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ANTH,303,101,87364562,Jayaprakash,Shalini, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ANTH,415,101,15506693,Beauchesne,Patrick, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ANTH,515,101,15506693,Beauchesne,Patrick, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ARBC,102,101,90843066,ElMeligi,Wessam, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ARBC,365,101,47153612,Dika,Rifaat, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ARTH,101,101,84835766,Weed,Stanley, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BA,300,101,00950956,Wheeler,Tuere, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BA,330,101,44328923,Coon,Jennifer, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BA,690,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BCHM,370,101,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BCHM,370,102,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BE,401,101,67339926,Valero,Magali, ,WEB,5/5/2025,6/20/2025,1100,1345,M, ,W, , , , ,Hybrid
+202530,Summer 2025,BE,530,101,13773149,Miranda,Maria, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BENG,364,101,77464422,Hu,Jian, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BENG,600,101, , , , , ,5/5/2025,6/20/2025, , , , , , , , , ,Web Based
+202530,Summer 2025,BENG,699,101, , , , , ,5/5/2025,6/20/2025, , , , , , , , , ,Web Based
+202530,Summer 2025,BIOL,130,101,34107348,Abramyan,John,1175,SSB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,130L,101,70931081,Susko,David,1037,NSB,5/5/2025,6/20/2025,1300,1645, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,130L,102,70931081,Susko,David,1037,NSB,5/5/2025,6/20/2025,1700,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,285,101,08773438,Mauer,Terra,127,NSB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,285L,101,08773438,Mauer,Terra,2032,SLRC,5/5/2025,6/20/2025,1300,1645, ,T, , , , , ,In Person
+202530,Summer 2025,BIOL,304,101,69076854,Harper,Jennifer,1175,SSB,5/5/2025,6/20/2025,1400,1515, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,BIOL,308,101,69076854,Harper,Jennifer,147,NSB,5/5/2025,6/20/2025,0900,1245, ,T, , , , , ,In Person
+202530,Summer 2025,BIOL,320,101,68442014,Nesmith,Judy,119,EIC,5/5/2025,6/20/2025,0800,1145,M, ,W, ,F, , ,In Person
+202530,Summer 2025,BIOL,357,101,24119836,Bieri,Rebecca,1175,SSB,5/5/2025,6/20/2025,1100,1345,M, ,W, , , , ,In Person
+202530,Summer 2025,BIOL,357,102,24119836,Bieri,Rebecca,1175,SSB,5/5/2025,6/20/2025,1400,1645,M, ,W, , , , ,In Person
+202530,Summer 2025,BIOL,370,101,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,370,102,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,BIOL,402,101,24718970,Zhang,Zhi,2012,NSB,5/5/2025,6/20/2025,1400,1645,M, ,W, , , , ,Hybrid
+202530,Summer 2025,BIOL,476,101,02528164,Kondapalli,Kalyan, , ,5/5/2025,6/20/2025,0930,1045, , , , ,F, , ,Hybrid - Mostly Online
+202530,Summer 2025,BIOL,499,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,BPS,451,101,62623751,Molloy,Janice, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CHEM,134,101,08868802,Lawson,Daniel,2195,SSB,5/5/2025,6/20/2025,0900,0950,M, ,W, ,F, , ,In Person
+202530,Summer 2025,CHEM,134,102,08868802,Lawson,Daniel,2195,SSB,5/5/2025,6/20/2025,0900,0950,M, ,W, ,F, , ,In Person
+202530,Summer 2025,CHEM,134L,101,08868802,Lawson,Daniel, , ,5/5/2025,6/20/2025,1300,1645,M, ,W, , , , ,In Person
+202530,Summer 2025,CHEM,134L,102,89054623,Smith,Sheila, , ,5/5/2025,6/20/2025,1300,1645, ,T, ,R, , , ,In Person
+202530,Summer 2025,CHEM,225,101,32488286,Marincean,Simona,1043,CB,5/5/2025,6/20/2025,1000,1145,M, ,W, , , , ,Hybrid
+202530,Summer 2025,CHEM,227,102,36986547,Li,Xiaohua,2032,NSB,5/5/2025,6/20/2025,0800,1145, ,T, ,R, , , ,In Person
+202530,Summer 2025,CHEM,370,101,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,CHEM,370,102,71878200,DaDalt,Ashley,1043,CB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,CIS,275,102,58749642,Kattan,Khalid, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,350,101,91035893,Guo,Jinhua,2390,ELB,5/5/2025,6/20/2025,1200,1345, ,T, ,R, , , ,In Person
+202530,Summer 2025,CIS,350,102,91035893,Guo,Jinhua, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,3501,101,91035893,Guo,Jinhua,2390,ELB,5/5/2025,6/20/2025,1200,1345, ,T, ,R, , , ,In Person
+202530,Summer 2025,CIS,3501,102,91035893,Guo,Jinhua, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,405,101,45217486,Rebai,Soumaya,1329,ELB,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,CIS,405,102,45217486,Rebai,Soumaya, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,446,102,10599542,Ma, , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,450,101,72363832,Al-Obaidy,Furat,2195,SSB,5/5/2025,6/20/2025,1800,1945,M,T,W,R, , , ,In Person
+202530,Summer 2025,CIS,491,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,492,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,493,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,494,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,505,101,67236706,Zhu,Qiang,1110/1120,PEC,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,CIS,505,102,67236706,Zhu,Qiang, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,546,102,10599542,Ma, , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,579,102,16628288,Almomani,Raed, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CIS,591,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,691,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,CIS,791,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,COMM,398,101,19106368,Iannarino,Nicholas, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,COMP,105,101,66754404,Stewart,Kristian, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,COMP,270,101,51684439,Schaeffer,Alicia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,COMP,300,101,51684439,Schaeffer,Alicia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,COMP,327,101,66780948,Rohan,Elizabeth, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,200,101,79412223,Shuraydi,Amny, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,382,101,81862944,Reppond,Harmony, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,410,101,10148650,Price,Carmel,4073,CB,5/5/2025,6/20/2025,1000,1145, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,CRJ,418,101,13678264,Barak,Maya, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,453,101,91839149,Patel,Nehal, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,497,101, , , , , ,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,CRJ,518,101,13678264,Barak,Maya, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,553,101,91839149,Patel,Nehal, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,598,101,13678264,Barak,Maya, , ,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,CRJ,598,102,13678264,Barak,Maya, , ,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,DS,301,101,23627663,He,Jun, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,DS,520,101,51865534,Kaufman,David,192,FCS,5/5/2025,6/20/2025,1800,2045, , ,W, , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ECE,276,101,67521935,Georgieva-Hristova,Yulia, ,WEB,5/5/2025,6/20/2025,1000,1145,M,T,W,R, , , ,Online-Asynchronous
+202530,Summer 2025,ECE,414,101,65436932,Wang,Mengqi,1321,ELB,5/5/2025,6/20/2025,1200,1345,M,T,W,R, , , ,In Person
+202530,Summer 2025,ECE,478,101,72363832,Al-Obaidy,Furat,2195,SSB,5/5/2025,6/20/2025,1800,1945,M,T,W,R, , , ,In Person
+202530,Summer 2025,ECE,533,102,82981192,Boone,Randy, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ECE,554,102,54754266,Shaout,Adnan, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ECON,201,101,87265495,Anderson,Robert, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ECON,202,101,93680458,Czap,Hans, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ECON,437,101,03680930,Czap,Natalia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDA,236,101,92146096,Kirby,Cynthia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDA,501,101,60628620,Fossum,Paul, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDA,701,101,60628620,Fossum,Paul, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDC,300,101,50440486,Crundwell,Robert, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDC,431,101,49630142,Ismail,Iman, ,WEB,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,Online - Dual
+202530,Summer 2025,EDC,439,101,42443906,Young,Latisha, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDC,539,101,42443906,Young,Latisha, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDD,485,101,19574124,Bouwman,Jeffrey,270,FCS,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,EDD,537,101,68791309,Bauer,Jennifer, , ,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,EDK,480,101,50549656,Hill,David, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDK,992,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,EDM,450,101,51671161,Bronstein,Erin, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDT,420,101,95296777,Duran,Mesut, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EDT,520,101,95296777,Duran,Mesut, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EMGT,520,101,11683056,Klungle,Roger,1330,PEC,5/5/2025,6/20/2025,1800,2045, ,T, , , , , ,Hybrid
+202530,Summer 2025,EMGT,520,102,11683056,Klungle,Roger, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,EMGT,580,101,87858271,Kasravi,Kas,1420,PEC,5/5/2025,6/20/2025,1800,2045, ,T, , , , , ,Hybrid
+202530,Summer 2025,EMGT,580,102,87858271,Kasravi,Kas, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGL,232,101,00196848,Finlayson,Jennifer, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGL,322,101,33422521,Hickey,Georgina,1019,CB,5/5/2025,6/20/2025,1000,1300,M, ,W, , , , ,In Person
+202530,Summer 2025,ENGL,327,101,66780948,Rohan,Elizabeth, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGL,399,101,34942952,Wielechowski,Benjamin, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGL,467,101,43203980,Proctor,Jennifer, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,360,101,80517106,Ayoub,Georges,1329,ELB,5/5/2025,6/20/2025,0900,1245, ,T, ,R, , , ,In Person
+202530,Summer 2025,ENGR,399,101,23703374,Smith,DeLean, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,400,101,08126572,Plavcan,Jill, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,400,102,08126572,Plavcan,Jill, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,492,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,493,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENGR,493,102,07361920,Maxim,Bruce, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ENT,400,101,84520204,Harris,Marcus, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ESCI,304,101,69076854,Harper,Jennifer,1175,SSB,5/5/2025,6/20/2025,1400,1515, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,ESCI,308,101,69076854,Harper,Jennifer,147,NSB,5/5/2025,6/20/2025,0900,1245, ,T, , , , , ,In Person
+202530,Summer 2025,ESCI,320,101,68442014,Nesmith,Judy,119,EIC,5/5/2025,6/20/2025,0800,1145,M, ,W, ,F, , ,In Person
+202530,Summer 2025,ESCI,410,501,69225068,Kamp,Ulrich, ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,ESCI,492,101, , , , , ,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,ESCI,510,501,69225068,Kamp,Ulrich, ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,ESCI,597,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,EXPS,410,101,51671161,Bronstein,Erin, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,FIN,401,101,13773149,Miranda,Maria, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,FIN,655,101,67339926,Valero,Magali, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,FNDS,3302,101,32744863,Rottner,Nadja, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HCDE,530,101,09752174,Kim,Sang-Hwan,1110/1120,PEC,5/5/2025,6/20/2025,1800,2045, , ,W, , , , ,Hybrid
+202530,Summer 2025,HCDE,530,102,09752174,Kim,Sang-Hwan, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,201,101,95876311,Jawad,Lina, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,210,101,78135935,Cargile,China, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,225,101,22990977,Helms Kotre,Grace, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,230,101,05705318,Ye,Yiwan, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,250,101,35435882,Sampson,Natalie, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,300,101,46781821,Kattari,Leonardo, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,301,101,46719222,Bell,Finn,116,EIC,5/5/2025,6/20/2025,1700,2045, , ,W, , , , ,In Person
+202530,Summer 2025,HHS,310,101,17288958,Proctor,Michelle, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,311,101,27036308,Im,Vitalis,241,FCS,5/5/2025,6/20/2025,1100,1345,M, ,W, , , , ,In Person
+202530,Summer 2025,HHS,402,101,07755205,Khan,Shazia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HHS,410,101,10148650,Price,Carmel,4073,CB,5/5/2025,6/20/2025,1000,1145, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,HHS,510,101,10148650,Price,Carmel,4073,CB,5/5/2025,6/20/2025,1000,1145, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,HIST,358,101,33422521,Hickey,Georgina, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HIST,389,101,63209438,Poling,Kristin, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HRM,305,101,93732966,Lee,Jung Hyun, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HUM,240,101,88607188,Zuk,Shelby, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HUM,300,101,41453124,Harris,Aurora, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HUM,303,101,87364562,Jayaprakash,Shalini, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HUM,389,101,63209438,Poling,Kristin, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,HUM,467,101,43203980,Proctor,Jennifer, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,IMSE,317,101,77464422,Hu,Jian, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,IMSE,350,101,91035893,Guo,Jinhua,2390,ELB,5/5/2025,6/20/2025,1200,1345, ,T, ,R, , , ,In Person
+202530,Summer 2025,IMSE,350,102,91035893,Guo,Jinhua, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,IMSE,382,101,43482104,Reyes-Villanueva,German,2265,SSB,5/5/2025,6/20/2025,1000,1145,M, , , , , , ,Hybrid - Mostly Online
+202530,Summer 2025,IMSE,382L,101,43482104,Reyes-Villanueva,German, , ,5/5/2025,6/20/2025,1100,1345, ,T, ,R, , , ,In Person
+202530,Summer 2025,IMSE,382L,102,43482104,Reyes-Villanueva,German,1068,ELB,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,IMSE,421,101,87858271,Kasravi,Kas,1321,ELB,5/5/2025,6/20/2025,1800,2045,M, ,W, , , , ,In Person
+202530,Summer 2025,IMSE,515,101,11683056,Klungle,Roger,1330,PEC,5/5/2025,6/20/2025,1800,2045, , ,W, , , , ,Hybrid
+202530,Summer 2025,IMSE,515,102,11683056,Klungle,Roger, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,IMSE,580,101,11683056,Klungle,Roger,1330,PEC,5/5/2025,6/20/2025,1800,2045, ,T, , , , , ,Hybrid
+202530,Summer 2025,IMSE,580,102,11683056,Klungle,Roger, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,IMSE,590,101, , , , ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,ISM,310,101,93521011,Urbaczewski,Lise, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,321,101,93521011,Urbaczewski,Lise, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,331,101,52942034,Freeman,Lee, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,383,101,23627663,He,Jun, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,491,101,52942034,Freeman,Lee, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,525,101,15779612,Guo,Yi, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ISM,650,101,52942034,Freeman,Lee, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,JASS,240,101,88607188,Zuk,Shelby, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,JASS,467,101,43203980,Proctor,Jennifer, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,JPN,395,101,96609814,Wang,Emily, ,-,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,LE,253,101,77113040,Molesky,Michael, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,MATH,115,101,88197215,Jabbusch,Kelly,2048,CB,5/5/2025,6/20/2025,1000,1145,M,T,W,R, , , ,In Person
+202530,Summer 2025,MATH,116,101,77193338,Kim,Hyejin,2070,CB,5/5/2025,6/20/2025,1000,1145,M,T,W,R, , , ,In Person
+202530,Summer 2025,MATH,215,101,95814411,Dabkowski,Michael, ,EXAMS,5/5/2025,6/20/2025,1100,1245, , , , ,F, , ,Hybrid - Mostly Online
+202530,Summer 2025,MATH,227,101,81179370,Keogh,Michael, ,WEB,5/5/2025,6/20/2025,1000,1145,M,T, ,R, , , ,Hybrid - Mostly Online
+202530,Summer 2025,MATH,276,101,67521935,Georgieva-Hristova,Yulia, ,WEB,5/5/2025,6/20/2025,1000,1145,M,T,W,R, , , ,Online-Asynchronous
+202530,Summer 2025,MCL,365,101,47153612,Dika,Rifaat, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ME,345,101,98643361,Kim,Wonsuk,1165,SSB,5/5/2025,6/20/2025,1200,1345, ,T, , , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ME,375,101,69306138,AbdulNour,Bashar,1165,SSB,5/5/2025,6/20/2025,1400,1545, , ,W, , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ME,381,101,43482104,Reyes-Villanueva,German,2265,SSB,5/5/2025,6/20/2025,1000,1145,M, , , , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ME,381L,101,43482104,Reyes-Villanueva,German,1068,ELB,5/5/2025,6/20/2025,1800,2045, ,T, ,R, , , ,In Person
+202530,Summer 2025,ME,490,101,42311015,Ruiz Garcia,Rafael, , ,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,ME,4981,101,64661566,Zhang,Yi,1420,PEC,5/5/2025,6/20/2025,1600,1745,M, , , , , , ,Hybrid - Mostly Online
+202530,Summer 2025,ME,583,102,73720232,Khosrovaneh,Abolhassan, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ME,600,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ME,601,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ME,602,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,ME,699,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,MICR,285,101,08773438,Mauer,Terra,127,NSB,5/5/2025,6/20/2025,0930,1045, ,T, ,R, , , ,In Person
+202530,Summer 2025,MICR,285L,101,08773438,Mauer,Terra,2032,SLRC,5/5/2025,6/20/2025,1300,1645, ,T, , , , , ,In Person
+202530,Summer 2025,MICR,499,101, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,MKT,352,101,06979066,Ryan Jr,Patrick, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,MKT,352,102, , , , ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,MKT,515,101,58170528,McGrath,Sean, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,MKT,621,101,21497908,Wagner-Kotb,Amy, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,OB,354,101,64532100,Strandholm,Karen,173,FCS,5/5/2025,6/20/2025,1800,2045,M, ,W, , , , ,In Person
+202530,Summer 2025,OB,354,102,08293550,Smrt,Diana, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Hybrid
+202530,Summer 2025,OM,300,101,94788721,Birou,Laura, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,OM,480,101,34768876,Majeske,Katherine, ,WEB,5/5/2025,6/20/2025,1100,1345,M, ,W, , , , ,Online - Dual
+202530,Summer 2025,OM,663,101,06239319,Ro,Young, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PAPP,537,101,03680930,Czap,Natalia, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PDED,405,101,50549656,Hill,David, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PDED,418BN,101,93926406,Brunvand,Stein, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PDED,418BV,101,93926406,Brunvand,Stein, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PDED,518BN,101,93926406,Brunvand,Stein, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PDED,518BV,101,93926406,Brunvand,Stein, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PHIL,100,101,96187555,Aijaz,Imran, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PHIL,233,101,07329094,Yeakel,Daniel, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PHIL,240,101,24390489,Gromak,James, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PHYS,125,101,82743557,Tripathy,Suvranta,1212,ML,5/5/2025,6/20/2025,1000,1145, ,T, ,R,F, , ,In Person
+202530,Summer 2025,PHYS,125L,101,86350809,Ghoddoussi,Farhad,2238,NSBS,5/5/2025,6/20/2025,1200,1445, ,T, ,R, , , ,In Person
+202530,Summer 2025,PHYS,126,101,52857563,Nelson,Jack,127,NSB,5/5/2025,6/20/2025,1000,1145,M, ,W, ,F, , ,In Person
+202530,Summer 2025,PHYS,126L,101,69523281,Al Haj Ahmad,Abbas,2240,NSBS,5/5/2025,6/20/2025,1200,1445, ,T, ,R, , , ,In Person
+202530,Summer 2025,PHYS,150,101,76633440,Hetrick,James,2012,NSB,5/5/2025,6/20/2025,1000,1145,M, ,W, ,F, , ,In Person
+202530,Summer 2025,PHYS,150L,101,86350809,Ghoddoussi,Farhad,2238,NSBS,5/5/2025,6/20/2025,1200,1445,M, ,W, , , , ,In Person
+202530,Summer 2025,PHYS,151,101,30326978,Wang,Jin,127,NSB,5/5/2025,6/20/2025,1200,1345,M, ,W, ,F, , ,In Person
+202530,Summer 2025,PHYS,151L,101,30326978,Wang,Jin,2240,NSBS,5/5/2025,6/20/2025,0900,1145,M, ,W, , , , ,In Person
+202530,Summer 2025,POL,101,101,69249201,Thomson,Dale, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,302,101,19655742,Sethuraman,Nitya, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,303,101,87364562,Jayaprakash,Shalini, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,320,101,81862944,Reppond,Harmony, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,363,101,70158617,Clark-Foos,Arlo, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,372,101,05825162,Dolins,Francine, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,400,101,41230224,Liu,Zhong Xu, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,428,101,18874500,Hymes,Robert, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,465,101,70158617,Clark-Foos,Arlo, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,PSYC,485,101,85412430,Loeb,Roger,1015,CB,5/5/2025,6/20/2025,1200,1345,M, ,W, , , , ,Hybrid
+202530,Summer 2025,PSYC,548,101,77284920,Wrobel,Nancy,1084,CB,5/5/2025,6/20/2025,1000,1145,M, ,W, , , , ,In Person
+202530,Summer 2025,RELS,365,101,47153612,Dika,Rifaat, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,200,101,54015360,Forsythe-Brown,Ivy, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,303,101,87364562,Jayaprakash,Shalini, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,410,101,10148650,Price,Carmel,4073,CB,5/5/2025,6/20/2025,1000,1145, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,SOC,445,101,95099420,Aronson,Pamela, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,453,101,91839149,Patel,Nehal, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,510,101,10148650,Price,Carmel,4073,CB,5/5/2025,6/20/2025,1000,1145, ,T, ,R, , , ,Hybrid
+202530,Summer 2025,SOC,545,101,95099420,Aronson,Pamela, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SOC,553,101,91839149,Patel,Nehal, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SPAN,101,101,93618201,Rodriguez-McGill,Carlos, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,SPMT,410,101,88313543,Son,Veronica, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,STAT,263,101,50031100,Mikula,Margaret, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+202530,Summer 2025,URS,360,101,33422521,Hickey,Georgina, , ,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,URS,380,101,33422521,Hickey,Georgina, , ,5/5/2025,6/20/2025, , , , , , , , , ,In Person
+202530,Summer 2025,WGST,303,101,87364562,Jayaprakash,Shalini, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
+,,,,,,,,,,,,,,,,,,,,,
+"This report will be scheduled on the first week (first day of the term) of fall and winter semesters
+
+Last updated: 5/5/2025 01:05 PM
+
+Prompt Summary: *** Query Name:BANDATA ***
+
+    Enter value(s) for Parts of Term Code 2;4;6
+    Select Term 202530",,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
