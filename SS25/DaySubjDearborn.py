@@ -74,7 +74,7 @@ final_df = subject_filtered_df
 #final_df = final_df
 
 #final_df = final_df.drop(columns=['Class Nbr'])
-st.write("Available columns in final_df:", list(final_df.columns))
+#st.write("Available columns in final_df:", list(final_df.columns))
 
 
 final_df = final_df[['Meeting Time Start', 'Meeting Time End','Room Code', 'Building Code', 'Primary Instructor Last Name',
