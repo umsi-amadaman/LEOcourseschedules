@@ -1,4 +1,4 @@
-Term Code,Term Desc,Subject,Class Nbr,Class Section,Primary Instructor ID,Primary Instructor Last Name,Primary Instructor First Name,Room Code,Building Code,Term Start Date,Term End Date,Begin Time,End Time,Monday Indicator,Tuesday Indicator,Wednesday Indicator,Thursday Indicator,Friday Indicator,Saturday Indicator,Sunday Indicator,Instructional Mode
+Term Code,Term Desc,Subject,Class Nbr,Class Section,Primary Instructor ID,Primary Instructor Last Name,Primary Instructor First Name,Room Code,Building Code,Term Start Date,Term End Date,Meeting Time Start,Meedting Time End,Monday Indicator,Tuesday Indicator,Wednesday Indicator,Thursday Indicator,Friday Indicator,Saturday Indicator,Sunday Indicator,Instructional Mode
 202530,Summer 2025,AAAS,300,101,41453124,Harris,Aurora, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
 202530,Summer 2025,ACC,298,101,60986283,Baker,Susan,170,FCS,5/5/2025,6/20/2025,1100,1345, ,T, ,R, , , ,In Person
 202530,Summer 2025,ACC,357,101,40331464,Kent,Richard, ,WEB,5/5/2025,6/20/2025, , , , , , , , , ,Online-Asynchronous
