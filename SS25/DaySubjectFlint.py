@@ -10,7 +10,7 @@ new_Bldgs = json.loads(response.text)
 
 
 
-DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/FlintScheduleW25.csv'
+DATA = 'https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/Flint_S25.csv'
 #https://github.com/umsi-amadaman/LEOcourseschedules/blob/main/W25/A2SchedW25.csv
 
 sched = pd.read_csv(DATA)
