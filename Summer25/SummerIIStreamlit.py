@@ -131,33 +131,7 @@ def show_dearborn():
     st.header("Dearborn Schedule by Day and Subject")
 
     # schedule has 3 title rows → skiprows=3
-    raw = pd.read_csv(DB_FILE, skiprows=3, header=None, dtype=str)
-    raw.columns = [
-        "Term Code",
-        "Term Desc",
-        "Subject",
-        "Course Number",
-        "Seq Number",
-        "Instructor ID",
-        "Instructor Last Name",
-        "Instructor First Name",
-        "Room Code",
-        "Building Code",
-        "Term Start Date",
-        "Term End Date",
-        "Instructional Method",
-        "Meeting Pattern",
-        "Begin Time",
-        "End Time",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday",
-        "Instructional Mode",
-    ]
+    raw = pd.read_csv(DB_FILE, dtype=str)
 
     merged = merge_monthly(raw, "Instructor ID")
 
