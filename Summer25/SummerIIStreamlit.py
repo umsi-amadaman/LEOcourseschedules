@@ -130,30 +130,40 @@ def show_ann_arbor():
 def show_dearborn():
     st.header("Dearborn Schedule by Day and Subject")
 
-    # schedule has 3 title rows → skiprows=3
+    # 1 Load raw file (header already correct, no skipped rows)
     raw = pd.read_csv(DB_FILE, dtype=str)
+
+    # 2 Ensure required columns exist / fix mislabeled ones
+    rename_map = {
+        "Instructional Method": "Term Start Date",
+        "Meeting Pattern": "Term End Date",
+    }
+    for old, new in rename_map.items():
+        if old in raw.columns and new not in raw.columns:
+            raw.rename(columns={old: new}, inplace=True)
+
+    # 3 Merge with Monthly BEFORE dropping Instructor ID
+    if "Instructor ID" not in raw.columns:
+        st.error("'Instructor ID' column missing in Dearborn file – cannot merge with Monthly.")
+        return
 
     merged = merge_monthly(raw, "Instructor ID")
 
-    # human‑readable building + room
+    # 4 Drop user‑requested cols AFTER merge so we can still join on them
+    drop_cols = [c for c in ["Term Code", "Seq Number", "Instructor ID"] if c in merged.columns]
+    merged.drop(columns=drop_cols, inplace=True)
+
+    # 5 Human‑readable building name
     bdict = load_buildings()
-    merged["Location"] = (
-        merged["Building Code"].map(bdict).fillna(merged["Building Code"]) +
-        " " + merged["Room Code"].fillna("")
-    )
+    if {"Building Code", "Room Code"}.issubset(merged.columns):
+        merged["Location"] = (
+            merged["Building Code"].map(bdict).fillna(merged["Building Code"]) +
+            " " + merged["Room Code"].fillna("")
+        )
 
-    # drop requested / noise cols
-    db_drop = [
-        "Term Code",
-        "Seq Number",
-        "Instructor ID",
-        "UM ID",
-        "Room Code",
-        "Building Code",
-    ]
-    merged = merged.drop(columns=[c for c in db_drop if c in merged.columns])
-
-    sel_day = st.selectbox("Select Day", ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], key="db_day")
+    # 6 Interactive filters
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    sel_day = st.selectbox("Select Day", days, key="db_day")
     day_df = merged[merged[sel_day].isin(["M", "T", "W", "R", "F", "X"])]
 
     subj_opts = sorted(day_df["Subject"].dropna().unique())
