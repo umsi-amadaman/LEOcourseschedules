@@ -98,7 +98,18 @@ def show_dearborn():
 
     merged = merge_monthly(raw, "Instructor ID")
 
-    db_drop = ["Term Code", "Seq Number", "Instructor ID"]
+    db_drop = [
+        "Class Instr ID", "Facility ID", "Facility Descr", "Employee Last Name", "Employee First Name",
+        "UM ID", "Rec #", "Class Indc", "Job Code", "Hire Begin Date", "Appointment Start Date",
+        "Appointment End Date", "Comp Frequency", "Appointment Period", "Appointment Period Descr",
+        "Comp Rate", "Home Address 1", "Home Address 2", "Home Address 3", "Home City", "Home State",
+        "Home Postal", "Home County", "Home Country", "Home Phone", "UM Address 1", "UM Address 2",
+        "UM Address 3", "UM City", "UM State", "UM Postal", "UM County", "UM Country", "UM Phone",
+        "Employee Status", "Employeee Status Descr", "uniqname", "Class Mtg Nbr",
+
+        #specific drops
+        
+        "Term Code", "Seq Number", "Instructor ID"]
     merged.drop(columns=[c for c in db_drop if c in merged.columns], inplace=True)
 
     bdict = load_buildings()
