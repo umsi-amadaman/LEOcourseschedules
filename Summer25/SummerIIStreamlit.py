@@ -44,7 +44,9 @@ def show_ann_arbor():
 
     # original big drop list (minus "Deduction") plus the four extra columns the user asked for
     aa_drop = [
-        "Class Instr ID", "Facility ID", "Facility Descr", "Employee Last Name", "Employee First Name",
+        "Class Instr ID", "Facility ID", 
+        #"Facility Descr", 
+        "Employee Last Name", "Employee First Name",
         "UM ID", "Rec #", "Class Indc", "Job Code", "Hire Begin Date", "Appointment Start Date",
         "Appointment End Date", "Comp Frequency", "Appointment Period", "Appointment Period Descr",
         "Comp Rate", "Home Address 1", "Home Address 2", "Home Address 3", "Home City", "Home State",
