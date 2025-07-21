@@ -44,7 +44,7 @@ def merge_and_filter(schedule_df: pd.DataFrame, id_col: str) -> pd.DataFrame:
 
 def show_ann_arbor():
     st.header("Ann Arbor Schedule by Day and Subject")
-    df = pd.read_csv("AASchedSum25.csv", dtype=str)
+    df = pd.read_csv("Summer25/AASchedSum25.csv", dtype=str)
 
     merged_df = merge_and_filter(df, "Class Instr ID")
 
@@ -85,7 +85,7 @@ def show_ann_arbor():
 
 def show_dearborn():
     st.header("Dearborn Schedule by Day and Subject")
-    df = pd.read_csv("DBSchedSum25.csv", skiprows=3, dtype=str)
+    df = pd.read_csv("Summer25/DBSchedSum25.csv", skiprows=3, dtype=str)
 
     # tidy col names
     df.columns = [
@@ -117,7 +117,7 @@ def show_dearborn():
 
 def show_flint():
     st.header("Flint Schedule by Day and Subject")
-    df = pd.read_csv("Flint_S25.csv", dtype=str)
+    df = pd.read_csv("Summer25/Flint_S25.csv", dtype=str)
 
     # guess ID column – adjust if your CSV uses another label
     possible_ids = ["Class Instr ID", "Instructor ID", "UM ID"]
