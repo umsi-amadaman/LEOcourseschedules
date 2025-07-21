@@ -106,7 +106,7 @@ def show_dearborn():
         "Home Postal", "Home County", "Home Country", "Home Phone", "UM Address 1", "UM Address 2",
         "UM Address 3", "UM City", "UM State", "UM Postal", "UM County", "UM Country", "UM Phone",
         "Employee Status", "Employeee Status Descr", "uniqname", "Class Mtg Nbr",
-        "Term", "Class Nbr", "Department ID", "Employee Status Descr"
+        "Term", "Class Nbr", "Department ID", "Employee Status Descr",
 
         #specific drops
         
