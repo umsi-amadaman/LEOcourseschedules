@@ -14,14 +14,14 @@ def load_buildings():
 
 @st.cache_data
 def load_monthly():
-    url = "https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/W25/LEOmonthly_Jan25.csv"
+    url = "https://github.com/umsi-amadaman/LEOcourseschedules/raw/main/Summer25/MonthlyJuly25.csv"
     return pd.read_csv(url)
 
 
 # ---------- Campus-Specific Functions ----------
 def show_ann_arbor():
     st.header("Ann Arbor Schedule by Day and Subject")
-    df = pd.read_csv("AA LEO_schedule_of_classes_556_8274104613747640902.csv")
+    df = pd.read_csv("AASchedSum25.csv")
     monthly = load_monthly()
 
     # Merge
@@ -104,7 +104,7 @@ def show_ann_arbor():
 
 def show_dearborn():
     st.header("Dearborn Schedule by Day and Subject")
-    df = pd.read_csv("DB LEO Term Class Schedule Report Summer II.csv",skiprows=3)
+    df = pd.read_csv("DBSchedSum25.csv",skiprows=3)
 
     df.columns = ["Term Code", "Term Desc", "Subject", "Course Number", "Seq Number",
         "Instructor ID", "Instructor Last Name", "Instructor First Name",
